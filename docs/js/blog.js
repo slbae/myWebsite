@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', renderPosts);
 function renderPosts() {
 
     // Fetch the JSON file
-fetch('../blogs.json')
+fetch('./blogs.json')
 .then(response => {
   if (!response.ok) {
     throw new Error('Network response was not ok');
