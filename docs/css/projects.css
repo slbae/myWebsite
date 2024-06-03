@@ -1,4 +1,4 @@
-#post-container {
+#project-container {
     padding: 5px;
     display: grid;
     gap: 10px;
@@ -13,22 +13,14 @@
         "bottom bottom bottom bottom";
 }
 
-#upcoming-posts {
-    margin: 15px;
+.proj img {
+    height: auto;
+    width: 250px;
+
+    
 }
 
-.post {
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.post img {
-    width: 100%;
-    height: 100%;
-}
-
-.post-title {
+.proj-title {
     width: 250px;
     text-align: center;
 }

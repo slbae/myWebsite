@@ -13,6 +13,7 @@
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <link href='./css/projects.css' rel='stylesheet' />
     <link href='./css/index.css' rel='stylesheet' />
 
     <!-- Favicon Logo -->
@@ -25,6 +26,7 @@
 </head>
 
 <body>
+    <!-- Navbar Begins -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="brand" href="./index.html">
             <div class="navbar-brand">SYLBI</div>
@@ -38,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="./index.html">ABOUT</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,39 +65,37 @@
                       <a class="dropdown-item" href="./senior.html">Senior Design</a>
                       <a class="dropdown-item" href="./web.html">Web Development</a>
                       <a class="dropdown-item" href="./java.html">Java Journey</a>
-                      <a class="dropdown-item" href="./resume.html">Resume</a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
+    <!-- Navbar Ends -->
 
     <main>
-        <img id="avatar" src="./images/me.jpg"></img>
-        <div class="bio">
-            <p>
-                Welcome to my website! My name is Sylbi and I'm a senior studying Computer Science and Business Administration at NC State University
-                located in Raleigh, NC. Born in Queens, NY and raised in Charlotte, NC I enjoy fitness/health, singing, playing piano, and reading
-                different genres (business, self-help, poetry, fiction, non-fiction, fantasy, sci-fi, and romance so far)! I created this website so
-                I could have a creative outlet to write about my passions, document my life, and showcase my accomplishments thus far. Feel free to peruse,
-                read a few blog posts, and play around with some fun projects!
-            </p><br>
+        <h1>PROJECTS</h1>
+        <div id="project-container">
+            <a class="proj" href="https://github.com/slbae/calculator">
+                <img class="proj-image"src="images/calc.png" alt="calculator"/>
+                <div class="proj-title">Calculator</div>
+            </a>
 
-            <h4>Why Computer Science?</h4>
-            <p>
-                Fun fact: In Korean culture, on a child's first birthday they will be confronted by a plethora of random objects.
-                Naturally, the child will pick out a few objects from the table. This monumental memory provides magic 8 ball insight
-                into the child's future. I picked up a microphone (love of music/vocal talent), a book and pencil (reading/writing/academics),
-                yarn (strength/health), a paintbrush (creativity), cash (abundance), and... a computer mouse?<br><br>
+            <a class="proj" href="https://github.com/slbae/twitter-clone">
+                <img class="proj-image"src="images/howler.webp" alt="howler"/>
+                <div class="proj-title">Howler (twitter-clone)</div>
+            </a>
 
-                Everything else manifested itself into my life, but I was still confused about the computer mouse. Video games made me
-                clumsy whereas books became my obstacle-free world. College exposed me to computer science and the endless possibilities
-                of innovative problem-solving and technology. After my first coding class, I was so intrigued that I continued to learn other
-                languages and work on fun projects in my free time.
-            </p><br>
+            <a class="proj" href="https://github.com/slbae/adventura">
+                <img class="proj-image"src="images/adventura.png" alt="adventura"/>
+                <div class="proj-title">Adventura</div>
+            </a>
+
+            <a class="proj" href="https://github.com/slbae/coffeemaker">
+                <img class="proj-image"src="images/coffee.png" alt="coffee-shop"/>
+                <div class="proj-title">Coffee Shop</div>
+            </a>
 
         </div>
-       
     </main>
 
     <footer>
@@ -107,5 +107,4 @@
         © 2024 Sylbi Bae
     </footer>
 </body>
-<script src="./js/common.js" type="module"></script>
 </html> 

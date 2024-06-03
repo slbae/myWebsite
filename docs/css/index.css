@@ -1,6 +1,6 @@
 .navbar-brand {
     margin-left: 20px;
-    font-size: 30pt;
+    font-size: 20pt;
 }
 
 .navbar-nav .nav-item {
@@ -8,19 +8,33 @@
     font-size: 15pt;
 }
 
-#icon {
+.icon {
     height: 50px;
     width: 50px;
 }
 
+.brand {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+    grid-template-areas:
+        "top top top";
+}
+
 main {
     margin: 15px;
-    display: flex;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
 }
 
 #avatar {
     width: 200px;
-    height: 200px;
+    height: auto;
 }
 
 .bio {
@@ -29,11 +43,19 @@ main {
     font-size: 18px;
 }
 
+#logo {
+    height: auto;
+    width: 50px;
+}
+
+img {
+    padding: 10px;
+}
+
 footer {
     background-color: #f8f9fa;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;

@@ -28,8 +28,11 @@
 <body>
     <!-- Navbar Begins -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img id="icon" src="./images/favicon-32x32.png"></img>
-        <a class="navbar-brand" href="#">SYLBI BAE</a>
+        <a class="brand" href="./index.html">
+            <div class="navbar-brand">SYLBI</div>
+            <img class="icon" src="./images/favicon-32x32.png" />
+            <div class="navbar-brand">BAE</div>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,28 +43,30 @@
                     <a class="nav-link" href="./index.html">ABOUT</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      BLOG
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        BLOG
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./blog.html">All</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="./culture.html">Culture</a>
-                      <a class="dropdown-item" href="./college.html">College</a>
-                      <a class="dropdown-item" href="./writing.html">Creative Writing</a>
-                      <a class="dropdown-item" href="./books.html">Books</a>
+                        <a class="dropdown-item" href="./blog.html">All</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./culture.html">Culture</a>
+                        <a class="dropdown-item" href="./college.html">College</a>
+                        <a class="dropdown-item" href="./writing.html">Creative Writing</a>
+                        <a class="dropdown-item" href="./books.html">Books</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      PROJECTS
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PROJECTS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./projects.html">All</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="./senior.html">Senior Design</a>
-                      <a class="dropdown-item" href="./web.html">Web Development</a>
-                      <a class="dropdown-item" href="./java.html">Java Journey</a>
+                        <a class="dropdown-item" href="./projects.html">All</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./senior.html">Senior Design</a>
+                        <a class="dropdown-item" href="./web.html">Web Development</a>
+                        <a class="dropdown-item" href="./java.html">Java Journey</a>
                     </div>
                 </li>
             </ul>
@@ -69,21 +74,55 @@
     </nav>
     <!-- Navbar Ends -->
 
-    <main>
-        <h1>BLOG POSTS</h1>
-        <div id="post-container">
-            <!---blog posts render here-->
-        </div>
-    </main>
 
-    <footer>
-        <div>
-            <a href="slbae@ncsu.edu">Email</a>
-            <a href="https://linkedin.com/sylbibae">LinkedIn</a>
-            <a href="https://github.com/slbae">GitHub</a>
+    <h1>BLOG POSTS</h1>
+
+    <div id="post-container">
+        <!---blog post previews here-->
+        <a class="post" href="article1.html">
+            <img class="post-image" src="images/freshman.png" alt="Advice from a Computer Science Teaching Assistant" />
+            <div class="post-title">Advice From A Computer Science Teaching Assistant</div>
+        </a>
+    </div>
+
+    <h1>UPCOMING POSTS</h1>
+    <div id="upcoming-posts">
+        <div id="post">
+            <a href="article1.html">To Freshmen, From A Computer Science Senior</a>
         </div>
-        © 2024 Sylbi Bae
-    </footer>
+
+        <div id="post">
+            <a href="article1.html">Networking 101</a>
+        </div>
+
+        <div id="post">
+            <a href="article1.html">How To Balance The Big 3 (school, sleep, social) In College</a>
+        </div>
+
+        <div id="post">
+            <a href="article1.html">Takeaways from 101 Essays That Will Change The Way You Think</a>
+        </div>
+
+        <div id="post">
+            <a href="article1.html">Persuading You To Read These Books Based On Their Aesthetics</a>
+        </div>
+
+        <div id="post">
+            <a href="article1.html">How To Get Started With Web Development</a>
+        </div>
+    </div>
+
 </body>
+
+<footer>
+    <div id="links">
+        <a href="mailto:slbae@ncsu.edu"><img id="logo" src="images/gmail.webp"></img></a>
+        <a href="https://linkedin.com/in/sylbibae"><img id="logo" src="images/linkedin.png"></img></a>
+        <a href="https://github.com/slbae"><img id="logo" src="images/github.png"></img></a>
+    </div>
+    © 2024 Sylbi Bae
+</footer>
+
 <script src="./js/blog.js" type="module"></script>
-</html> 
+
+</html>
