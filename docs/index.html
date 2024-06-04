@@ -22,6 +22,23 @@
     <link rel="manifest" href="./site.webmanifest">
 
     <title>Sylbi Bae</title>
+
+    <style>
+        main {
+            display: flex;
+            align-items: center;
+        }
+
+        #avatar {
+            width: 200px; /* Adjust as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Adjust spacing */
+        }
+
+        .bio {
+            flex: 1;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,29 +58,31 @@
                     <a class="nav-link" href="#">ABOUT</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      BLOG
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        BLOG
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./blog.html">All</a>
-                      <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./blog.html">All</a>
+                        <!-- <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="./culture.html">Culture</a>
                       <a class="dropdown-item" href="./college.html">College</a>
                       <a class="dropdown-item" href="./writing.html">Creative Writing</a>
-                      <a class="dropdown-item" href="./books.html">Books</a>
+                      <a class="dropdown-item" href="./books.html">Books</a> -->
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      PROJECTS
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PROJECTS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./projects.html">All</a>
-                      <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./projects.html">All</a>
+                        <!-- <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="./senior.html">Senior Design</a>
                       <a class="dropdown-item" href="./web.html">Web Development</a>
                       <a class="dropdown-item" href="./java.html">Java Journey</a>
-                      <a class="dropdown-item" href="./resume.html">Resume</a>
+                      <a class="dropdown-item" href="./resume.html">Resume</a> -->
                     </div>
                 </li>
             </ul>
@@ -74,38 +93,47 @@
         <img id="avatar" src="./images/me.jpg"></img>
         <div class="bio">
             <p>
-                Welcome to my website! My name is Sylbi and I'm a senior studying Computer Science and Business Administration at NC State University
-                located in Raleigh, NC. Born in Queens, NY and raised in Charlotte, NC I enjoy fitness/health, singing, playing piano, and reading
-                different genres (business, self-help, poetry, fiction, non-fiction, fantasy, sci-fi, and romance so far)! I created this website so
-                I could have a creative outlet to write about my passions, document my life, and showcase my accomplishments thus far. Feel free to peruse,
+                Welcome to my website! My name is Sylbi and I'm a senior studying Computer Science and Business
+                Administration at NC State University
+                located in Raleigh, NC. Born in Queens, NY and raised in Charlotte, NC I enjoy fitness/health, singing,
+                playing piano, and reading
+                different genres (business, self-help, poetry, fiction, non-fiction, fantasy, sci-fi, and romance so
+                far)! I created this website so
+                I could have a creative outlet to write about my passions, document my life, and showcase my
+                accomplishments thus far. Feel free to peruse,
                 read a few blog posts, and play around with some fun projects!
             </p><br>
 
             <h4>Why Computer Science?</h4>
             <p>
-                Fun fact: In Korean culture, on a child's first birthday they will be confronted by a plethora of random objects.
-                Naturally, the child will pick out a few objects from the table. This monumental memory provides magic 8 ball insight
-                into the child's future. I picked up a microphone (love of music/vocal talent), a book and pencil (reading/writing/academics),
+                Fun fact: In Korean culture, on a child's first birthday they will be confronted by a plethora of random
+                objects.
+                Naturally, the child will pick out a few objects from the table. This monumental memory provides magic 8
+                ball insight
+                into the child's future. I picked up a microphone (love of music/vocal talent), a book and pencil
+                (reading/writing/academics),
                 yarn (strength/health), a paintbrush (creativity), cash (abundance), and... a computer mouse?<br><br>
 
-                Everything else manifested itself into my life, but I was still confused about the computer mouse. Video games made me
-                clumsy whereas books became my obstacle-free world. College exposed me to computer science and the endless possibilities
-                of innovative problem-solving and technology. After my first coding class, I was so intrigued that I continued to learn other
+                Everything else manifested itself into my life, but I was still confused about the computer mouse. Video
+                games made me
+                clumsy whereas books became my obstacle-free world. College exposed me to computer science and the
+                endless possibilities
+                of innovative problem-solving and technology. After my first coding class, I was so intrigued that I
+                continued to learn other
                 languages and work on fun projects in my free time.
             </p><br>
-
         </div>
-       
     </main>
 
     <footer>
         <div id="links">
             <a href="mailto:slbae@ncsu.edu"><img id="logo" src="images/gmail.webp"></img></a>
-            <a href="https://linkedin.com/in/sylbibae"><img id="logo" src="images/linkedin.png"></img></a>
-            <a href="https://github.com/slbae"><img id="logo" src="images/github.png"></img></a>
+            <a href="https://linkedin.com/in/sylbibae" target="_blank"><img id="logo"
+                    src="images/linkedin.png"></img></a>
+            <a href="https://github.com/slbae" target="_blank"><img id="logo" src="images/github.png"></img></a>
         </div>
         © 2024 Sylbi Bae
     </footer>
 </body>
-<script src="./js/common.js" type="module"></script>
-</html> 
+
+</html>
