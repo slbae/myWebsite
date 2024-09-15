@@ -1,8 +1,12 @@
+main h1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
 
 /* Style for the container holding the posts */
 #post-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
     gap: 20px; /* Space between grid items */
 }
 

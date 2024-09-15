@@ -1,34 +1,12 @@
-/* #project-container {
-    padding: 20px;
-    display: grid;
-    gap: 20px;
-
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-
-    grid-template-areas:
-        "top top top top "
-        "left center center right"
-        "left center center right"
-        "bottom bottom bottom bottom";
+main h1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
 }
-
-.proj img {
-    height: auto;
-    width: 250px;
-
-    
-}
-
-.proj-title {
-    width: 250px;
-    text-align: center;
-} */
 
 /* Style for the container holding the posts */
 #project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
     gap: 20px; /* Space between grid items */
 }
 
