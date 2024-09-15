@@ -1,39 +1,13 @@
-/* #project-container {
-    padding: 20px;
-    display: grid;
-    gap: 20px;
-
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-
-    grid-template-areas:
-        "top top top top "
-        "left center center right"
-        "left center center right"
-        "bottom bottom bottom bottom";
-}
-
-.proj img {
-    height: auto;
-    width: 250px;
-
-    
-}
-
-.proj-title {
-    width: 250px;
-    text-align: center;
-} */
 
 /* Style for the container holding the posts */
-#project-container {
+#post-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px; /* Space between grid items */
 }
 
 /* Style for each post item */
-.proj {
+.post {
     display: block;
     text-decoration: none;
     color: inherit;
@@ -49,13 +23,13 @@
 }
 
 /* Hover effect for each post */
-.proj:hover {
+.post:hover {
     transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Style for the post image */
-.proj-image {
+.post-image {
     width: 100%;
     height: 85%; /* Adjusted height to fit well within the fixed post height */
     object-fit: contain; /* Ensures the image fits within the container without being cropped */
@@ -63,7 +37,7 @@
 }
 
 /* Style for the post title */
-.proj-title {
+.post-title {
     padding: 10px;
     text-align: center;
     font-weight: bold;
