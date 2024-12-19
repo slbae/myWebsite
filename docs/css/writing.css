@@ -1,18 +1,15 @@
 h1 {
-    margin-bottom: 40px;
-    font-size: 2.5rem;
-    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #222;
 }
 
-body {
-    margin: 20px;
-}
-
-/* Style for the container holding the posts */
 #post-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
     gap: 20px; /* Space between grid items */
+    margin: 20px;
 }
 
 /* Style for each post item */
@@ -25,7 +22,7 @@ body {
     overflow: hidden;
     background: #fff;
     width: 100%; /* Ensure the post fills the grid cell */
-    height: 350px; /* Fixed height for each post */
+    height: 250px; /* Fixed height for each post */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-sizing: border-box;
     position: relative;

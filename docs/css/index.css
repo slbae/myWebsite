@@ -23,27 +23,23 @@
         "top top top";
 }
 
-main {
-    margin: 15px;
-    display: flex;
-    align-items: center;
-}
-
 h1 {
     text-align: center;
     margin-top: 20px;
 }
 
 #avatar {
-    width: 200px;
-    height: auto;
-    margin-right: 20px;
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .bio {
-    margin: 15px;
+    margin: 20px auto;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
+    width: 75%;
 }
 
 #logo {

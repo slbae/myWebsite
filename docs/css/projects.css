@@ -1,20 +1,17 @@
 h1 {
-    margin-bottom: 40px;
-    font-size: 2.5rem;
-}
-
-body {
+    text-align: center;
+    font-size: 2.5em;
     margin: 20px;
+    color: #222;
 }
 
-/* Style for the container holding the posts */
 #project-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
     gap: 20px; /* Space between grid items */
+    margin: 20px;
 }
 
-/* Style for each post item */
 .proj {
     display: block;
     text-decoration: none;
@@ -24,19 +21,17 @@ body {
     overflow: hidden;
     background: #fff;
     width: 100%; /* Ensure the post fills the grid cell */
-    height: 350px; /* Fixed height for each post */
+    height: 250px; /* Fixed height for each post */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-sizing: border-box;
     position: relative;
 }
 
-/* Hover effect for each post */
 .proj:hover {
     transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the post image */
 .proj-image {
     width: 100%;
     height: 85%; /* Adjusted height to fit well within the fixed post height */
@@ -44,7 +39,6 @@ body {
     display: block;
 }
 
-/* Style for the post title */
 .proj-title {
     padding: 10px;
     text-align: center;
