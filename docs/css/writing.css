@@ -1,6 +1,11 @@
-main h1 {
+h1 {
     margin-bottom: 40px;
     font-size: 2.5rem;
+    align-items: center;
+}
+
+body {
+    margin: 20px;
 }
 
 /* Style for the container holding the posts */

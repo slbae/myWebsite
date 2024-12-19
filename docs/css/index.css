@@ -25,6 +25,8 @@
 
 main {
     margin: 15px;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -35,6 +37,7 @@ h1 {
 #avatar {
     width: 200px;
     height: auto;
+    margin-right: 20px;
 }
 
 .bio {
